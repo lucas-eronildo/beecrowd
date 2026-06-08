@@ -4,5 +4,5 @@ int main(){
     float salario, vendas;
     fgets(nome, sizeof(nome), stdin);
     scanf("%f %f", &salario, &vendas);
-    printf("TOTAL = R$ %.2f", salario + (vendas*0.15));
+    printf("TOTAL = R$ %.2f\n", salario + (vendas*0.15));
 }
